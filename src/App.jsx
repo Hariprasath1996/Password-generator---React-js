@@ -8,7 +8,7 @@ const App = () => {
   const [lowerCase, setLowerCase] = useState(true)
   const [numbers, setNumbers] = useState(true)
   const [symbols, setSymbols] = useState(true)
-  // create password state variable for user entered value in input field @ passWordLength
+  // create password  variable for user entered value in input field @ passWordLength to getting stored in final output
   const[passWord,setPassword]=useState("");
 // create component  for generate the different different values from state variables   but that before we want to create state variables for those four checkboxes
   const generateRandomPassword =()=>{
